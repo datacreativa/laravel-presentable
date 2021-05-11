@@ -1,0 +1,49 @@
+{
+    "name": "datacreativa/laravel-presentable",
+    "description": "Create presenters for Eloquent Models",
+    "keywords": [
+        "laravel",
+        "presentable"
+    ],
+    "homepage": "https://github.com/datacreativa/laravel-presentable",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jonathan Zarate",
+            "email": "zaratedev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheHiveTeam\\Presentable\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TheHiveTeam\\Presentable\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheHiveTeam\\Presentable\\PresentableServiceProvider"
+            ]
+        }
+    }
+}
