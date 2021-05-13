@@ -20,6 +20,10 @@ composer require datacreativa/laravel-presentable
 Use the `HasPresentable` trait in any Eloquent Model, you must also add the `$presenter` property.
 
 ```php
+
+use App\Models\Presenters\UserPresenter;
+use TheHiveTeam\Presentable\HasPresentable;
+
 class User extends Model
 {
     use HasPresentable;
