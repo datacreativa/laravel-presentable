@@ -1,7 +1,6 @@
 # Laravel Presentable
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/datacreativa/presentable.svg?style=flat-square)](https://packagist.org/packages/datacreativa/laravel-presentable)
-[![Total Downloads](https://img.shields.io/packagist/dt/datacreativa/presentable.svg?style=flat-square)](https://packagist.org/packages/datacreativa/laravel-presentable)
+[![Total Downloads](https://img.shields.io/packagist/dt/datacreativa/laravel-presentable.svg?style=flat-square)](https://packagist.org/packages/datacreativa/laravel-presentable)
 ![GitHub Actions](https://github.com/datacreativa/laravel-presentable/actions/workflows/main.yml/badge.svg)
 
 ![Banner](https://banners.beyondco.de/Laravel%20Presentable.png?theme=light&packageManager=composer+require&packageName=datacreativa%2Flaravel-presentable&pattern=bubbles&style=style_1&description=Create+presenters+for+Eloquent+Models&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
