@@ -7,10 +7,10 @@ use TheHiveTeam\Presentable\Presenter;
 class DummyClass extends Presenter
 {
     /**
-    * This is a example.
-    *
-    * @return string
-    */
+     * This is a example.
+     *
+     * @return string
+     */
     public function name()
     {
         return $this->model->name;
