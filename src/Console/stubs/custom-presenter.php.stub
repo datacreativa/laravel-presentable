@@ -11,8 +11,8 @@ class DummyClass extends Presenter
      *
      * @return string
      */
-    public function name()
+    public function name(): string
     {
-        return $this->model->name;
+        return ucwords($this->model->name);
     }
 }
