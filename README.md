@@ -14,7 +14,7 @@ You can install the package via composer:
 | Laravel | Version |
 | ------- | ------- |
 | 6, 7, 8 | 0.0.1   |
-| 9       | 0.2     |
+| 9       | 0.0.2   |
 
 ```bash
 composer require datacreativa/laravel-presentable
