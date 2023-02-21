@@ -12,9 +12,10 @@ This package allows the information to be presented in a different way by means 
 You can install the package via composer:
 
 | Laravel | Version |
-| ------- | ------- |
-| 6, 7, 8 | 0.0.1   |
-| 9       | 0.0.2   |
+|---------|---------|
+| 6, 7, 8 | 1.0.0   |
+| 9       | 1.1.0   |
+| 10      | 1.2.0   |
 
 ```bash
 composer require datacreativa/laravel-presentable
