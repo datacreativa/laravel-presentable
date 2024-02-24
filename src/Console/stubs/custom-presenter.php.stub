@@ -7,9 +7,7 @@ use TheHiveTeam\Presentable\Presenter;
 class DummyClass extends Presenter
 {
     /**
-     * This is a example.
-     *
-     * @return string
+     * This is an example.
      */
     public function name(): string
     {
