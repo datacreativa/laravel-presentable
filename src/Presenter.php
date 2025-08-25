@@ -13,7 +13,7 @@ abstract class Presenter
      * @param  \Illuminate\Database\Eloquent\Model  $model
      * @return void
      */
-    public function setModel($model): void
+    public function setModel(\Illuminate\Database\Eloquent\Model $model): void
     {
         $this->model = $model;
     }
