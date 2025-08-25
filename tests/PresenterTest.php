@@ -9,7 +9,7 @@ use TheHiveTeam\Presentable\Presenter;
 
 class PresenterTest extends TestCase
 {
-    /** @test */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function it_presents_title()
     {
         $class = new class extends Model

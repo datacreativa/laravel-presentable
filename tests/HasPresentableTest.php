@@ -10,7 +10,7 @@ use TheHiveTeam\Presentable\Presenter;
 
 class HasPresentableTest extends TestCase
 {
-    /** @test */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function it_throws_an_exception_if_the_model_does_not_define_a_presentable_property()
     {
         $model = new class extends Model
@@ -29,7 +29,7 @@ class HasPresentableTest extends TestCase
         $this->fail('Did not throw the expected exception');
     }
 
-    /** @test */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function it_throws_an_exception_id_the_presenter_class_does_not_exist()
     {
         $model = new class extends Model
@@ -50,7 +50,7 @@ class HasPresentableTest extends TestCase
         $this->fail('Did not throw the expected exception');
     }
 
-    /** @test */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function it_throws_an_exception_id_the_presenter_class_does_not_extend_presenter()
     {
         $model = new class extends Model
@@ -74,7 +74,7 @@ class HasPresentableTest extends TestCase
         $this->fail('Did not throw the expected exception');
     }
 
-    /** @test */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function it_returns_null_when_attribute_is_not_set()
     {
         $model = new class extends Model
@@ -87,7 +87,7 @@ class HasPresentableTest extends TestCase
         $this->assertNull($model->present()->name);
     }
 
-    /** @test */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function it_returns_unaltered_attribute_when_presenter_method_does_not_exist()
     {
         $model = new class extends Model
@@ -101,7 +101,7 @@ class HasPresentableTest extends TestCase
         $this->assertEquals('john@example.com', $model->present()->email);
     }
 
-    /** @test */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function it_returns_modified_attribute_when_presenter_method_exists()
     {
         $model = new class extends Model
