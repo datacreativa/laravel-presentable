@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-presentable` will be documented in this file
 
+## 1.5.0 - 2026-03-24
+
+- Add support for Laravel 13
+- Update minimum PHP version requirement to 8.3
+- Add PHPUnit 12 support
+- Add Orchestra Testbench 11 support
+- Update CI matrix to test against PHP 8.3, 8.4, and 8.5
+
 ## 1.4.0 - 2025-08-25
 
 - Add support for Laravel 12
